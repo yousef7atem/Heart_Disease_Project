@@ -1,1 +1,17 @@
+# Ngrok Setup for Streamlit App
+
+1. تأكد أن Streamlit وNgrok مثبتين:
+   pip install streamlit pyngrok
+
+2. شغل التطبيق محلياً:
+   streamlit run ../ui/app.py
+
+3. في نافذة جديدة شغل Ngrok:
+   ngrok http 8501
+
+4. سيظهر لك رابط عام (Forwarding) يمكن لأي شخص الدخول عليه.
+
+# ملاحظات:
+- رقم المنفذ (8501) هو الافتراضي لتطبيق Streamlit.
+- كل مرة تشغل Ngrok سيعطي رابط جديد.
 
