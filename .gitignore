@@ -1,19 +1,36 @@
-# Python
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual environments
+.env/
+.venv/
 env/
 venv/
-*.egg-info/
-dist/
-build/
 
-# Jupyter
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Models
-models/*.pkl
+# Dataset / data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
 
-# Results
-results/*.txt
+# Models / serialized files
+*.pkl
+*.joblib
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit / ngrok
+/.streamlit/
+ngrok-stable-linux-amd64
