@@ -1,14 +1,1 @@
 
-from ucimlrepo import fetch_ucirepo
-import pandas as pd
-
-# Fetch dataset
-heart_disease = fetch_ucirepo(id=45)
-X = heart_disease.data.features
-y = heart_disease.data.targets
-
-# دمج المميزات مع الهدف
-df = pd.concat([X, y], axis=1)
-
-# حفظه كـ CSV
-df.to_csv("data/heart_disease.csv", index=False)
