@@ -1,1 +1,35 @@
+Heart Disease Prediction Model Evaluation
+
+Logistic Regression:
+- Accuracy: 0.8667
+- Precision: 0.8636
+- Recall: 0.7917
+- F1 Score: 0.8261
+- ROC AUC: 0.9479
+
+Random Forest:
+- Accuracy: 0.8000
+- Precision: 0.7727
+- Recall: 0.7083
+- F1 Score: 0.7391
+- ROC AUC: 0.8883
+
+Gradient Boosting:
+- Accuracy: 0.7833
+- Precision: 0.7391
+- Recall: 0.7083
+- F1 Score: 0.7234
+- ROC AUC: 0.8958
+
+Support Vector Machine (SVM):
+- Accuracy: 0.8667
+- Precision: 0.9000
+- Recall: 0.7500
+- F1 Score: 0.8182
+- ROC AUC: 0.9641
+
+Notes:
+- Model evaluation done on test dataset.
+- Metrics show that Logistic Regression and SVM have highest performance.
+- Final selected model saved as final_model.pkl
 
