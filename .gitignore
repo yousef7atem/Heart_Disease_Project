@@ -1,4 +1,19 @@
+# Python
 __pycache__/
 *.pyc
-*.pkl
-.env
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+models/*.pkl
+
+# Results
+results/*.txt
