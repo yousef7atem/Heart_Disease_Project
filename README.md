@@ -13,8 +13,8 @@ This project predicts heart disease risk using machine learning. It includes:
 
 ## Folder Structure
 Heart_Disease_Project/
-│── data/
 
+│── data/
 │ ├── heart_disease.csv
 
 │── notebooks/
